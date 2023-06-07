@@ -1,13 +1,4 @@
-import os
-from io import BytesIO
-from queue import Queue
-import requests
-from flask import Flask, request
-from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler, Dispatcher
-from movies_scraper import search_movies, get_movie
-
-
+welecome to RRS
 TOKEN = os.getenv("TOKEN")
 URL = "https://movie-boz.vercel.app"
 bot = Bot(TOKEN)
